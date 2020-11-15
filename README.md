@@ -11,17 +11,21 @@ JAVA_HOME and HADOOP_HOME should be created in order to avoid any issues. Furthe
 
 **Configuring Hadoop Cluster:**
 
-```%HADOOP_HOME%\etc\hadoop\hdfs-site.xml
+```
+%HADOOP_HOME%\etc\hadoop\hdfs-site.xml
 %HADOOP_HOME%\etc\hadoop\core-site.xml
 %HADOOP_HOME%\etc\hadoop\mapred-site.xml
-%HADOOP_HOME%\etc\hadoop\yarn-site.xml``
+%HADOOP_HOME%\etc\hadoop\yarn-site.xml
+```
 
 ***HDFS site config***
 
 Create directories for the master node(namenode) and then for the data store(datanode).
-
-```C:\hadoop-3.2.1\data\dfs\namenode & C:\hadoop-3.2.1\data\dfs\datanode
-
+```
+C:\hadoop-3.2.1\data\dfs\namenode & C:\hadoop-3.2.1\data\dfs\datanode
+```
+***Insert between the Configuration element in the xml file***
+```
 hdfs-site.xml
 *Insert between the Configuration element in the xml file
 <property>
@@ -35,4 +39,6 @@ hdfs-site.xml
 <property>
 <name>dfs.datanode.data.dir</name>
 <value>file:///C:/hadoop-3.2.1/data/dfs/datanode</value>
-</property>```
+</property>
+
+```
