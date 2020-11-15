@@ -1,6 +1,9 @@
 # Youtube_Analysis_Hadoop
 Youtube data analysis with hadoop on an Azure VM
 
+**Hadoop**
+[Hadoop Link](https://www.apache.org/dyn/closer.cgi/hadoop/common)
+
 **Azure VM:**
 
 Setup an Azure VM to install Hadoop as Windows doesn't have Native IO support thus creating a fresh environment for testing is a safer option. The VM needs Java 8 JRE and JDK installed. Hadoop binaries are needed and the wintutils are needed in order to get Hadoop running as expected. 
