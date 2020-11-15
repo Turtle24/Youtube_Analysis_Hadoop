@@ -2,6 +2,7 @@
 Youtube data analysis with hadoop on an Azure VM
 
 [Hadoop Link](https://www.apache.org/dyn/closer.cgi/hadoop/common)
+[Hadoop Binaries](https://github.com/Turtle24/winutils)
 
 **Azure VM:**
 
