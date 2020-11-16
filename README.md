@@ -1,5 +1,5 @@
-# Youtube_Analysis_Hadoop
-Youtube data analysis with hadoop on an Azure VM
+# Hadoop Setup
+
 
 [Hadoop Link](https://www.apache.org/dyn/closer.cgi/hadoop/common)
 
